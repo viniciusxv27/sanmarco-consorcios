@@ -1,0 +1,30 @@
+[04-Sep-2023 23:17:19 America/Recife] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/businessp/public_html/sanmarco/conecta.php:8
+Stack trace:
+#0 /home/businessp/public_html/sanmarco/conecta.php(8): mysqli->__construct('localhost', 'root', '', 'sanmarco_db')
+#1 /home/businessp/public_html/sanmarco/inicio/assets/php/envio.php(2): include_once('/home/businessp...')
+#2 {main}
+  thrown in /home/businessp/public_html/sanmarco/conecta.php on line 8
+[04-Sep-2023 23:28:37 America/Recife] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'businessp_admin'@'localhost' to database 'sanmarco' in /home/businessp/public_html/sanmarco/conecta.php:8
+Stack trace:
+#0 /home/businessp/public_html/sanmarco/conecta.php(8): mysqli->__construct('localhost', 'businessp_admin', '@Hg356x00@', 'sanmarco')
+#1 /home/businessp/public_html/sanmarco/inicio/assets/php/envio.php(2): include_once('/home/businessp...')
+#2 {main}
+  thrown in /home/businessp/public_html/sanmarco/conecta.php on line 8
+[04-Sep-2023 23:29:52 America/Recife] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'businessp_admin'@'localhost' to database 'businessp_sanmarco' in /home/businessp/public_html/sanmarco/conecta.php:8
+Stack trace:
+#0 /home/businessp/public_html/sanmarco/conecta.php(8): mysqli->__construct('localhost', 'businessp_admin', '@Hg356x00@', 'businessp_sanma...')
+#1 /home/businessp/public_html/sanmarco/inicio/assets/php/envio.php(2): include_once('/home/businessp...')
+#2 {main}
+  thrown in /home/businessp/public_html/sanmarco/conecta.php on line 8
+[04-Sep-2023 23:47:06 America/Recife] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'businessp_admin'@'localhost' to database 'businessp_sanmarco' in /home/businessp/public_html/sanmarco/conecta.php:8
+Stack trace:
+#0 /home/businessp/public_html/sanmarco/conecta.php(8): mysqli->__construct('localhost', 'businessp_admin', '@Hg356x00@', 'businessp_sanma...')
+#1 /home/businessp/public_html/sanmarco/inicio/assets/php/envio.php(2): include_once('/home/businessp...')
+#2 {main}
+  thrown in /home/businessp/public_html/sanmarco/conecta.php on line 8
+[04-Sep-2023 23:48:11 America/Recife] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'businessp_admin'@'localhost' to database 'businessp_sanmarco' in /home/businessp/public_html/sanmarco/conecta.php:8
+Stack trace:
+#0 /home/businessp/public_html/sanmarco/conecta.php(8): mysqli->__construct('localhost', 'businessp_admin', '@Hg356x00@', 'businessp_sanma...')
+#1 /home/businessp/public_html/sanmarco/inicio/assets/php/envio.php(2): include_once('/home/businessp...')
+#2 {main}
+  thrown in /home/businessp/public_html/sanmarco/conecta.php on line 8

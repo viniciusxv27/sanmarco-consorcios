@@ -1,0 +1,17 @@
+[20-Oct-2023 19:13:16 America/Recife] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home/businessp/public_html/sanmarco/final/assets/php/enviar.php:27
+Stack trace:
+#0 /home/businessp/public_html/sanmarco/final/assets/php/enviar.php(27): mysqli_stmt->bind_result(NULL, 'vinicius8cm@gma...', NULL, NULL, '14026442721', NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/businessp/public_html/sanmarco/final/assets/php/enviar.php on line 27
+[20-Oct-2023 19:15:06 America/Recife] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home/businessp/public_html/sanmarco/final/assets/php/enviar.php:27
+Stack trace:
+#0 /home/businessp/public_html/sanmarco/final/assets/php/enviar.php(27): mysqli_stmt->bind_result(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/businessp/public_html/sanmarco/final/assets/php/enviar.php on line 27
+[20-Oct-2023 19:19:28 America/Recife] PHP Fatal error:  Uncaught ArgumentCountError: Number of bind variables doesn't match number of fields in prepared statement in /home/businessp/public_html/sanmarco/final/assets/php/enviar.php:27
+Stack trace:
+#0 /home/businessp/public_html/sanmarco/final/assets/php/enviar.php(27): mysqli_stmt->bind_result(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/businessp/public_html/sanmarco/final/assets/php/enviar.php on line 27
+[20-Oct-2023 19:21:33 America/Recife] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/businessp/public_html/sanmarco/final/assets/php/enviar.php:70) in /home/businessp/public_html/sanmarco/final/assets/php/enviar.php on line 72
+[20-Oct-2023 19:23:10 America/Recife] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/businessp/public_html/sanmarco/final/assets/php/enviar.php:70) in /home/businessp/public_html/sanmarco/final/assets/php/enviar.php on line 77

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/6134d25c78.js" crossorigin="anonymous"></script>
+    <title>Simulação | San Marco</title>
+</head>
+<body>
+    <header>
+        <img src="assets/images/LOGO-02.png" alt="Logo Consórcio San Marco">
+    </header>
+    <section>
+        <div class="container">
+            <div>
+                <ul>
+                    <li class="check">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                </ul>
+            </div>
+            <div class="alinhamento-header">
+                <div class="header-form">
+                    <img src="../assets/images/ICONE.png" alt="Icone de Carro">
+                    <div>
+                        <h1>Vamos começar com pé direito.</h1>
+                        <p>Compartilhe um pouco sobre você para que possamos te conhecer melhor.</p>
+                    </div>
+                </div>
+                <p class="description">Antes de fazer a simulação nos informe alguns dados:</p>
+            </div>
+            <form action="assets/php/envio.php" method="post">
+                <div class="input">
+                    <label for="nome">
+                        <span>Nome Completo</span>
+                        <input required class="nome" type="text" name="nome">
+                    </label>
+                </div>
+                <div class="input">
+                    <label for="email">
+                        <span>E-mail</span>
+                        <input required type="email" class="email" name="email">
+                    </label>
+                </div>
+                <div class="div-duo">
+                    <div>
+                        <label for="celular">
+                            <span>Celular</span>
+                            <input required class="celular" name="celular" type="text">
+                        </label>
+                    </div>
+                    <div>
+                        <label for="endereco">
+                            <span>Endereço</span>
+                            <input required class="endereco" name="endereco" type="text">
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="div-submit">
+                    <input name="submit" class="submit" type="submit" value="Próximo">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+<script src="assets/javascript/checkbox.js"></script>
+</html>

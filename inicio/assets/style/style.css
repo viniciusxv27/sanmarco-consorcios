@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+    background-image: url("../images/BG.jpg");
+    color: #fff;
+}
+
+header{
+    background-color: #f1cf00;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    width: 7%;
+    margin: 5px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: #d25b2c;
+    font-weight: 300;
+    width: 700px;
+    box-shadow: 2px 2px 30px #b34e26;
+}
+
+.container img{
+    width: 20%;
+}
+
+ul{
+    display: flex;
+    margin-top: 40px;
+}
+
+ul li{
+    background-color: #fff;
+    color: #d25b2c;
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    list-style-type: none;
+    margin: 5px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul .check{
+    background-color: #f1cf00;
+}
+
+.alinhamento-header .description{
+    font-size: 80%;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.header-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.header-form img{
+    width: 10%;
+    margin-right: 10px;
+}
+
+.header-form div{
+    font-size: 70%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.input label{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.input label span{
+    position: absolute;
+    font-size: 12px;
+    background-color: #d25b2c;
+    transform: translateX(10px);
+    z-index: 1;
+    padding: 8px;
+}
+
+.input input{
+    border: 1px solid #fff;
+    background-color: #d25b2c;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    transform: translateY(22px);
+}
+
+.input input:focus{
+    outline: 0;
+}
+
+.div-duo{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+.div-duo div{
+    width: 100%;
+    margin: 10px;
+}
+
+.div-duo div label{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.div-duo div label span{
+    position: absolute;
+    transform: translateX(10px);
+    font-size: 12px;
+    background-color: #d25b2c;
+    z-index: 1;
+    padding: 8px;
+}
+
+.div-duo div label input{
+    border: 1px solid #fff;
+    background-color: #d25b2c;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    transform: translateY(22px);
+}
+
+.div-duo div label input:focus{
+    outline: 0;
+}
+
+.div-submit{
+    display: flex;
+    justify-content: end;
+}
+
+.div-submit input{
+    background-color: #f1cf00;
+    color: #d25b2c;
+    border-radius: 40px;
+    border: 0;
+    padding: 5px;
+    width: 30%;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 100%;
+    margin-bottom: 40px;
+
+}
+
+@media (max-width: 600px) {
+
+    header img{
+        width: 30%;
+    }
+
+    .header-form img{
+        width: 10%;
+        height: 10%;
+    }
+
+    .header-form div{
+        font-size: 60%;
+    }
+
+    .alinhamento-header .description p{
+        font-size: 50%;
+    }
+
+    form{
+        width: 100%;
+    }
+}

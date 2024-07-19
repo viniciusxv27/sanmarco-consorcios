@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/6134d25c78.js" crossorigin="anonymous"></script>
+    <title>Simulação | San Marco</title>
+</head>
+<body>
+    <header>
+        <img src="assets/images/LOGO-02.png" alt="Logo Consórcio San Marco">
+    </header>
+    <section>
+        <div class="container">
+            <div>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li class="check">3</li>
+                    <li>4</li>
+                </ul>
+            </div>
+            <div class="alinhamento-section">
+                <div class="container1">
+                    <div>
+                        <div class="header-form">
+                            <img src="../assets/images/ICONE.png" alt="Icone de Carro">
+                            <div>
+                                <h1>Quase lá!</h1>
+                                <h2>
+                                    Estamos animados em oferecer a você uma proposta personalizada
+                                    <br>
+                                    e um brinde especial do Consórcio San Marco.
+                                </h2>
+                                <br>
+                                <p>
+                                    Para aproveitar essa oportunidade única, preencha o campo abaixo com seus dados e envie para nós.
+                                </p>
+                                <br>
+                                <p>
+                                    Após o envio do formulário, você receberá um código exclusivo por e-mail (ou SMS).
+                                    <br>
+                                    Ao fechar o contrato com o Consórcio San Marco e informar à nossa equipe o código
+                                    <br>
+                                    recebido, você garantirá o seu brinde especial!
+                                </p>
+                            </div>
+                        </div>
+                        <form action="" method="post">
+
+                            <div class="input">
+                                <label for="cpf">
+                                    <span>CPF/CNPJ</span>
+                                    <input onkeypress="validaCpfCnpj()" required type="text" class="cpf" id="cpf" name="cpf">
+                                    <br>
+                                    <p id="mensagem"></p>
+                                </label>
+                            </div>
+                            <br>
+                            <label for="check" id="switch" class="switch">
+                                <div class="switch-wrapper">
+                                    <input class="check" required type="checkbox">
+                                    <span class="switch-button"></span>
+                                </div>
+                                <span class="switch-text">Aceito o <a target="_blank" href="https://www.consorciosanmarco.com.br/institucional/politica-de-privacidade">Termo de privacidade</a></span>
+                            </label>
+                            <br>
+                            <div class="voltar">
+                                <button onclick="voltar()"><p><i class="fas fa-arrow-left"></i>  Voltar</p></button>
+                            </div>
+                            <br>
+                            <div class="div-submit">
+                                <input onclick="enviar()" name="submit" class="submit" type="button" value="Confirmar">
+                            </div>
+                        </form>       
+                    </div>
+                </div>
+
+                <div class="container2">
+                    <div>
+                        <h1>Resumo</h1>
+                        <div>
+                            <h1>Valor total</h1>
+                            <h1 id="campoValor">R$ 00.000,00</h1>
+                        </div>
+                        <div>
+                            <h1>Prazo</h1>
+                            <h1 id="campoPrazo">36 meses</h1>
+                        </div>
+                        <div>
+                            <h1>Parcelas</h1>
+                            <h1 id="campoParcelas">R$ 0.000,00</h1>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+<script src="assets/javascript/script.js"></script>
+</html>

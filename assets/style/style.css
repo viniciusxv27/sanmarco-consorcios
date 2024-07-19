@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+    background-image: url("../images/BG.jpg");
+    color: #fff;
+}
+
+header{
+    background-color: #f1cf00;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img{
+    width: 7%;
+    margin: 5px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+
+section img{
+    width: 40%;
+}
+
+.left-main{
+    margin: 10px;
+}
+
+.left-main h1{
+    font-size: 270%;
+    font-weight: 300;
+}
+
+.left-main h1 strong{
+    font-weight: 900;
+}
+
+.left-main p{
+    font-size: 180%;
+    font-weight: 250;
+}
+
+.left-main button{
+    background-color: #f1cf00;
+    color: #d25b2c;
+    border: 0;
+    border-radius: 40px;
+    padding: 20px;
+    width: 100%;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.left-main button:hover{
+    cursor: pointer;
+}
+
+.left-main button i{
+    color: #f1cf00;
+    background-color: #d25b2c;
+    border-radius: 100%;
+    padding: 5px;
+    font-size: 100%;
+    margin-left: 10px;
+}
+
+@media (max-width: 1200px) {
+    section{
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 700px) {
+
+    header img{
+        width: 30%;
+    }
+
+    section img{
+        width: 80%;
+    }
+
+    .left-main h1{
+        font-size: 170%;
+    }
+
+    .left-main p{
+        font-size: 130%;
+    }
+
+    .left-main button{
+        padding: 10px;
+        font-size: 100%;
+    }
+}

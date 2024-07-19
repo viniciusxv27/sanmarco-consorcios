@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/6134d25c78.js" crossorigin="anonymous"></script>
+    <title>Simulação | San Marco</title>
+</head>
+<body>
+    <header>
+        <img src="assets/images/LOGO-02.png" alt="Logo Consórcio San Marco">
+    </header>
+    <section>
+        <div class="container">
+            <div>
+                <ul>
+                    <li>1</li>
+                    <li class="check">2</li>
+                    <li>3</li>
+                    <li>4</li>
+                </ul>
+            </div>
+            <div class="alinhamento-section">
+                <div class="container1">
+                    <div>
+                        <div class="header-form">
+                            <img src="../assets/images/ICONE.png" alt="Icone de Carro">
+                            <div>
+                                <h1>O momento tão esperado chegou!</h1>
+                                <p>
+                                    Agora, informe o valor desejado e o prazo do contrato. Aqui você vai
+                                    <br>
+                                    entender o valor que será as parcelas do seu consórcio.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form">
+                            <div class="range-container">
+                                <input required value="45000" step="1000" min="45000" max="150000" type="range" name="valor" id="valor">
+                                <div class="value-balloon" id="balloon">R$45.000,00</div>
+                            </div>
+                            <select required name="prazo" id="prazo">
+                                <option>Definir o Prazo</option>
+                                <option value="12">12 Meses</option>
+                                <option value="24">24 Meses</option>
+                                <option value="36">36 Meses</option>
+                                <option value="48">48 Meses</option>
+                            </select>
+                        </div>
+                        <div class="voltar">
+                            <button onclick="voltar()"><p><i class="fas fa-arrow-left"></i>  Voltar</p></button>
+                        </div>         
+                    </div>
+                </div>
+
+                <div class="container2">
+                    <div>
+                        <h1>Resumo</h1>
+                        <div>
+                            <h1>Valor total</h1>
+                            <h1 id="campoValor">R$ 00.000,00</h1>
+                        </div>
+                        <div>
+                            <h1>Prazo</h1>
+                            <h1 id="campoPrazo">Definir o Prazo</h1>
+                        </div>
+                        <div>
+                            <h1>Parcelas</h1>
+                            <h1 id="campoParcelas">R$ 0.000,00</h1>
+                        </div>
+                        <br>
+                        <div class="button-div">
+                            <button onclick="proximo()" class="button">Próximo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+<script src="assets/javascript/script.js"></script>
+</body>
+</html>
